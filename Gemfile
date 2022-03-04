@@ -10,7 +10,10 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.2"
 gem "sprockets-rails"
 
 # Admin
-gem 'rails_admin'
+gem "rails_admin"
+
+# Login and Authentication
+gem "devise"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
